@@ -1,0 +1,34 @@
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
+section {
+    border: 1px red dotted;
+}
+/* text styles // start */
+
+h1 {
+    color:gold;
+    color:darksalmon;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color:lightsalmon;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+/* text styles// end */
