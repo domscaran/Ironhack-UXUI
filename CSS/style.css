@@ -2,9 +2,18 @@ body {
     font-family: 'Baloo 2', cursive;
 }
 
+body{
+    margin:0;
+    padding:0;
+}
+
 section {
     border: 1px red dotted;
-    
+    min-height: 100vh;
+}
+
+i {
+    color: mediumpurple;
 }
 /* text styles // start */
 
@@ -30,4 +39,47 @@ h5 {
 h6 {
 
 }
+
+ul {
+list-style-type: none;
+margin: 0;
+padding :0;
+}
+li {
+display: inline;
+}
+
 /* text styles// end */
+
+/* CLASSES */
+.bgcolorsection1 { 
+    background-color: greenyellow;
+    background-image: url("../CSS/IMG/sloop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bgcolorsection2 { 
+background-color: palegreen;
+}
+
+.bgcolorsection3 { 
+    background-color: rosybrown;
+    background-image: url("../CSS/IMG/gloop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgcolorsection4 {
+    background-color: mintcream;
+}
+.bgcolorsection5 {
+    background-color: skyblue;
+}
+.bgcolorsection6 {
+    background-color: tan;
+}
+
+.fa-search {
+    color: black;
+}
