@@ -92,3 +92,25 @@ background-color: palegreen;
 .fa-search {
     color: black;
 }
+.centerSectionCol {
+    text-align: center;
+}
+
+.footer-menu {
+    display: block;
+    padding: 0 1.2em 1.2em 0;
+}
+
+
+/* ID  */
+
+#featuresSection {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimonialSection {
+    /* justify-content: center; */
+    width: 500px;
+        text-align: center;
+}
