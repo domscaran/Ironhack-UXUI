@@ -1,0 +1,40 @@
+ABOUT /* ------------------------------------- */
+/* THIS IS FOR MOBILE */
+/* ------------------------------------- */
+body {
+background-color: papayawhip;
+}
+h1 {
+color: red;
+}
+h2 {
+color: gold;
+}
+/* ------------------------------------- */
+/* THIS IS FOR TABLET */
+/* ------------------------------------- */
+@media only screen and (min-width: 600px) {
+body {
+background-color: indigo;
+}
+h1 {
+color: rosybrown;
+}
+h2 {
+color: white;
+}
+}
+/* ------------------------------------- */
+/* THIS IS FOR DESKTOP */
+/* ------------------------------------- */
+@media only screen and (min-width: 768px) {
+body {
+background-color: khaki;
+}
+h1 {
+color: green;
+}
+h2 {
+color: blueviolet;
+}
+}
