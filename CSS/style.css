@@ -1,4 +1,4 @@
-body {
+* {
     font-family: 'Baloo 2', cursive;
 }
 
@@ -10,7 +10,7 @@ body{
 header{
     display: flex;
     justify-content: space-around;
-    padding:10px
+    padding:10px;
 }
 
 footer {
@@ -54,7 +54,7 @@ h6 {
 ul {
 list-style-type: none;
 margin: 0;
-padding :0;
+padding: 0;
 }
 li {
 display: inline;
@@ -97,18 +97,18 @@ a {
     height:415px;
 }
 
-.col-1{ }
+.col-1{width:8.33%;}
 .col-2{width:170px;}
 .col-3{ }
 .col-4{width:calc(100%/3);}
 .col-5{width:425px;}
-.col-6{width:50%}
+.col-6{width:50%;}
 .col-7{ }
 .col-8{ }
 .col-9{ }
 .col-10{ }
 .col_11{ }
-.col-12{width:100%}
+.col-12{width:100%;}
 
 .hero {
     text-align: center;
@@ -121,7 +121,7 @@ a {
 
 .bgcolorsection1 { 
     background-color: greenyellow;
-    background-image: url("../CSS/IMG/sloop.jpg");
+    background-image: url("../img/sloop.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -132,7 +132,7 @@ background-color: palegreen;
 
 .bgcolorsection3 { 
     background-color: rosybrown;
-    background-image: url("../CSS/IMG/gloop.jpg");
+    background-image: url("../img/gloop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
