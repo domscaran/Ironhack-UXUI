@@ -93,7 +93,23 @@ a {
 }
 .col{
     border: 1px solid green;
+    width: 336px;
+    height:415px;
 }
+
+.col-1{ }
+.col-2{width:170px;}
+.col-3{ }
+.col-4{width:calc(100%/3);}
+.col-5{width:425px;}
+.col-6{width:50%}
+.col-7{ }
+.col-8{ }
+.col-9{ }
+.col-10{ }
+.col_11{ }
+.col-12{width:100%}
+
 .hero {
     text-align: center;
     background-image: url("../img/you-x-ventures-8wH1NjFthaY-unsplash.jpg");
